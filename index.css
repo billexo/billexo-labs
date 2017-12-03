@@ -1,3 +1,30 @@
 h1 {
     color: red;
 }
+
+
+recommendation {
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    margin: 10px;
+    flex-direction: row;
+    max-width: 600px;
+}
+.circleimage {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+recommendation name {
+    color: black;
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+}
+recommendation role {
+    display: block;
+    color: gray;
+    font-size: 15px;
+}
