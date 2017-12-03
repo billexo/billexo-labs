@@ -3,6 +3,41 @@ h1 {
 }
 
 
+header {
+    display: flex;
+    background-color: #bb6826;
+    padding: 14px;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header h1 {
+    color: white;
+}
+
+
+header menu a {
+    text-decoration: none;
+    color: #f9e3a0;
+    font-size: 25px;
+    padding-left: 31px;
+}
+
+.ServiceLogoImage{
+    width: 65px;
+    float: left;
+    padding: 9px;
+}
+
+page {
+    padding: 20px;
+    display: block;
+    min-height: 300px;
+    margin: 10px;
+    border: 1px solid chocolate;
+    border-radius: 10px;
+}
 recommendation {
     border: 1px solid black;
     padding: 10px;
@@ -17,32 +52,54 @@ recommendation {
     height: 70px;
 }
 
-recommendation name {
+#LinkedinRecommendations name {
     color: black;
     display: block;
     font-weight: bold;
     font-size: 20px;
 }
-recommendation role {
+#LinkedinRecommendations role {
     display: block;
     color: gray;
     font-size: 15px;
 }
 
+.verybigFont {
+    font-size: 35px;
+}
+
+.clearbox {
+    clear: both;
+}
+
 allBoxs {
-    display: flex;
+    display: block;
 }
 allBoxs box {
-    border: 1px solid black;
+    border: 1px solid #d8d0d0;
+    border-radius: 9px;
     padding: 10px;
+    margin: 12px;
+    float: left;
     display: block;
-    margin: 10px;
-    width: 30%;
+    background-color: #f1ecec;
+}
+
+#linkservices allBoxs box {
+    width: 28%;
+    height: 125px;
+}
+#LinkedinRecommendations allBoxs box {
+    width: 45%;
+    height: 196px;
+    display: flex;
+    flex-flow: wrap;
 }
 
 allBoxs box topic{
-    color: #b37e37;
+    color: #19154e;
     display: block;
+    font-weight: bold;
 }
 .egovLogo {
     background-color: #8c7b7b;
@@ -55,4 +112,17 @@ footer {
     background-color: #bb6812;
     color: white;
     padding: 14px;
+}
+
+infobox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+info {
+    background-color: #f5f4f4;
+    padding: 6px;
+    margin-top: 8px;
+    color: #484746;
+    font-family: sans-serif;
 }
