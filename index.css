@@ -25,9 +25,9 @@ header menu a {
 }
 
 .ServiceLogoImage{
-    width: 65px;
-    float: left;
-    padding: 9px;
+    width: 66%;
+    display: block;
+    height: 10%;
 }
 
 page {
@@ -38,14 +38,7 @@ page {
     border: 1px solid chocolate;
     border-radius: 10px;
 }
-recommendation {
-    border: 1px solid black;
-    padding: 10px;
-    display: flex;
-    margin: 10px;
-    flex-direction: row;
-    max-width: 600px;
-}
+
 .circleimage {
     border-radius: 50%;
     width: 70px;
@@ -73,21 +66,33 @@ recommendation {
 }
 
 allBoxs {
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 allBoxs box {
     border: 1px solid #d8d0d0;
-    border-radius: 9px;
-    padding: 10px;
+    //border-radius: 9px;
+    //padding: 10px;
     margin: 12px;
     float: left;
-    display: block;
+    display: flex;
     background-color: #f1ecec;
 }
 
 #linkservices allBoxs box {
-    width: 28%;
-    height: 125px;
+    background-color: #16599c;
+}
+#linkservices allBoxs box topic{
+    color: #f4ff4d;
+    display: block;
+    font-weight: bold;
+    font-size: 55px;
+    text-align: center;
+}
+
+#linkservices allBoxs box detail {
+    color: #c7b3b3;
+    font-size: 25px;
 }
 #LinkedinRecommendations allBoxs box {
     width: 45%;
@@ -95,11 +100,12 @@ allBoxs box {
     display: flex;
     flex-flow: wrap;
 }
-
-allBoxs box topic{
-    color: #19154e;
-    display: block;
-    font-weight: bold;
+allBoxs box .servicedescbox {
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
 }
 .egovLogo {
     background-color: #8c7b7b;
