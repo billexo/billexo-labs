@@ -47,7 +47,7 @@ page {
 
 #LinkedinRecommendations name {
     color: black;
-    display: block;
+    display: flex;
     font-weight: bold;
     font-size: 20px;
 }
@@ -85,6 +85,7 @@ allBoxs box {
 #linkservices allBoxs box topic{
     color: #f4ff4d;
     display: block;
+    //width: 42%;
     font-weight: bold;
     font-size: 55px;
     text-align: center;
@@ -104,6 +105,7 @@ allBoxs box .servicedescbox {
     padding: 20px;
     padding-top: 50px;
     padding-bottom: 50px;
+   // width : 10%;
     display: flex;
     flex-direction: column;
 }
@@ -145,9 +147,16 @@ team {
     background-color: #3370bd;
     padding: 30px;
 }
+teamx {
+    background-color: #3370bd;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
 teambox {
     width: 23%;
-    height: 337px;
+    height: auto;
     padding: 20px;
     background-color: #ffffff;
     border-radius: 16px;
